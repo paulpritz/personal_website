@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-$base-font-family: 'EB Garamond', serif;
+$base-font-family: 'Futura', 'Century Gothic', 'Trebuchet MS', sans-serif;
 $base-font-size:   x-large;
 $small-font-size:  0.875em;
 $vsmall-font-size: 0.66em;
@@ -12,20 +12,20 @@ $spacing-unit:     1.5em;
 
 $grey-vlight:#eee;
 $grey-light: #ccc;
-$grey:       #888;
-$grey-dark:  #444;
-$grey-vdark: #222;
+$grey:       #555;
+$grey-dark:  #333;
+$grey-vdark: #000;
 $blue:       #11669b;
 $orange:     #ca6c18;
 $red:        #b6321c;
 
-$background:        $grey-vlight;
-$dark-background:   darken($background, 5%);
-$text-color:        $grey-vdark;
+$background:        #fff;
+$dark-background:   #f5f5f5;
+$text-color:        #000;
 $text-light-color:  $grey;
 $url-color:         $blue;
 $url-hover-color:   $orange;
-$header-text-color: $text-light-color;
+$header-text-color: $text-color;
 $header-hover-color:$text-color;
 $header-hover-url:  $url-color;
 $line-color:        $grey-light;

@@ -4,16 +4,15 @@ description: Paul Pritz personal webiste.
 permalink: blog/:year/:month/:day/:title
 exclude: ["Makefile", "README.md"]
 
-url: "http://paulpritz.com"     # the base hostname & protocol for your site
-baseurl: ""                   # the subpath of your site, e.g. /blog
+url: "http://paulpritz.com" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
 
 author:
-    name: Paul Pritz
-    email: paulj.pritz96@gmail.com
-    google_scholar_username: QgQIRl4AAAAJ&hl
-    github_username: pauljpritz
-    linkedin_username: paul-pritz-241978108
-    avatar: profile.jpg
+  name: Paul Pritz
+  email: paulj.pritz[at]gmail.com
+  google_scholar_username: QgQIRl4AAAAJ&hl
+  github_username: pauljpritz
+  linkedin_username: paul-pritz-241978108
 
 # Build settings
 markdown: kramdown
@@ -24,36 +23,36 @@ highlighter: rouge
 # Set 'provider' to false to turn analytics off globally.
 #
 analytics:
-    provider: false
-    statcounter:
-        sc_project  :
-        sc_security :
-        sc_invisible: 1
-        sc_text     : 2
-    google:
-        tracking_id: ''
-    getclicky:
-      site_id:
-    mixpanel:
-        token: ''
-    piwik:
-        baseURL: '' # Piwik installation address (without protocol)
-        idsite: ''  # the id of the site on Piwik
+  provider: false
+  statcounter:
+    sc_project:
+    sc_security:
+    sc_invisible: 1
+    sc_text: 2
+  google:
+    tracking_id: ""
+  getclicky:
+    site_id:
+  mixpanel:
+    token: ""
+  piwik:
+    baseURL: "" # Piwik installation address (without protocol)
+    idsite: "" # the id of the site on Piwik
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use.
 # Set 'provider' to false to turn commenting off globally.
 #
 comments:
-    provider: false
-    disqus:
-      short_name:
-    livefyre:
-      site_id:
-    intensedebate:
-      account:
-    facebook:
-      appid:
-      num_posts: 5
-      width: 580
-      colorscheme: light
+  provider: false
+  disqus:
+    short_name:
+  livefyre:
+    site_id:
+  intensedebate:
+    account:
+  facebook:
+    appid:
+    num_posts: 5
+    width: 580
+    colorscheme: light
