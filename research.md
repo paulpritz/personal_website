@@ -20,3 +20,17 @@ title: Research
 {% if pub.pdf %}<br />PDF: {% for article in pub.pdf %}[[{{article.name}}]({{article.url}})]{% endfor %}{% endif %}
 
 {% endfor %}
+
+## Talks
+
+{% if site.data.talks %}
+{% for talk in site.data.talks %}
+[**{{talk.title}}**]{% if talk.url %}({% if talk.internal %}{{talk.url | prepend: site.baseurl}}{% else %}{{talk.url}}{% endif %}){% endif %}<br />
+{% if talk.speaker %}{{talk.speaker}} – {% endif %}{{talk.event}}{% if talk.location %}, {{talk.location}}{% endif %}{% if talk.date %} — {{talk.date}}{% endif %}
+{% if talk.slides %}<br />Slides: {% for slide in talk.slides %}[[{{slide.name}}]({{slide.url}})]{% endfor %}{% endif %}
+{% if talk.video %}<br />Video: {% for vid in talk.video %}[[{{vid.name}}]({{vid.url}})]{% endfor %}{% endif %}
+
+{% endfor %}
+{% else %}
+No talks added yet.
+{% endif %}
